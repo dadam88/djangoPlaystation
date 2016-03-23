@@ -56,7 +56,7 @@ ROOT_URLCONF = 'src.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/derek/djangoPlaystation/src/Templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

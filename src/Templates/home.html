@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+THIS IS THE HOME PAGE
+{% for game in games %}
+ <li><a href="game_details/{{game.slug}}">{{game.name}}</a></li>
+{% endfor %}
+</body>
+</html>
